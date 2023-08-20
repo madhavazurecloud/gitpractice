@@ -1,0 +1,154 @@
+git and gitgub user manual
+
+TASK 1:	github new ropositry creation and file creation in git hub
+
+step 1
+* statr a new repository box - ente the name you want (or) click + in right top.
+* select new ropository. 
+* Ente the name you want.
+* click - creat ropository in bottom.
+* ropository is created.
+ 
+step 2
+* click - create a new file.
+* Enter the name of the file you want.
+* Enter some message or anything in the text area.(demotext.txt).
+* click - commit changes.
+* if you want to show any message type there.
+
+TASK 2: work in command prompt
+
+* Download the git form browser and install.
+* Open command prompt in searcbox in our pc.
+* Type git and enter, some code will appeare that is the cinfirmation of git installed.
+* Type [git config --global user.name "user name of the github"] enter.
+* type [git config --global user.email"that user name@gmail.com"] enter.
+* then git is ready to use.
+
+TASK 3: impport the Repository from github to git bash
+
+step 1
+* open the file location in local disk that we wat to save the git file(my pc, downloads, new filder named git)
+* Right click and click git bash heare, git will open.
+* Enter the command [git clone] git clone and paste the URL.
+* NOTE: that URL is copy from github- created repository .
+* git clone URL enter.
+* Folder will create with name of our repository.
+* THe git is in we cteated folder, but we should in cloned folder so
+* Type [cd folder name] cd-change directory.  
+
+
+
+git commands
+-------------
+Navigation:
+-----------
+1. cd [name of dir]: change directories.
+
+2. cd ..	: backward change.
+
+3. pwd:	to find present working directories.
+
+4. mkdir [directory name]: Create a new directory.
+
+5. rmdir [directory name]: Remove an empty directory.
+
+File operations.
+-----------------
+6. touch [filename]: Create an empty file. 
+
+7. cp [source] [destination]: Copy files/directories. 
+
+8. mv [source] [destination]: Move/Rename files/directories. 
+
+9. rm [options] [file/directory]: Remove files/directories.
+
+File Permissions:
+------------------
+
+10. chmod [permissions] [file]: Change file permissions. 
+
+11. chown [user:group] [file]: Change file ownership. 
+
+Text Manipulation:
+-------------------
+
+12. cat [file]: Display file contents. 
+
+13. less [file]: View file content interactively. 
+
+14. head [file]: Display the beginning of a file. 
+
+15. tail [file]: Display the end of a file. 
+
+16. grep [pattern] [file]: Search for patterns in a file. 
+
+17. wc [file]: Count lines, words, and characters. 
+
+System Information:
+--------------------
+
+18. uname -a: Display kernel info. 
+
+19. df -h: Show disk space usage. 
+
+20. free -h: Display RAM usage. 
+
+21. ifconfig: View network config. 
+
+User Management:
+----------------
+
+22. whoami: Display current username. 
+
+23. id: Show user/group info. 
+
+24. users: List logged-in users. 
+
+25. passwd: Change user password. 
+
+Basic Git Commands 
+--------------------
+git init: Initialize Git repo.
+
+git clone <repository_url>: Clone remote repo.
+
+git status: Check repo status.
+
+git add <file(s)>: Add changes to staging. 
+
+git commit -m "Commit message": Commit with the message. 
+
+git log: View commit history. 
+
+git diff: View commit differences. 
+
+git checkout -- <file(s)>: Discard changes. 
+
+git reset HEAD <file(s)>: Unstage changes. 
+
+git revert <commit_hash>: Revert a commit. 
+
+git reset --hard <commit_hash>: Reset to commit. 
+
+git clean -n: List untracked files to be removed. 
+
+git cherry-pick <commit_hash>: Apply a specific commit. 
+
+git rebase <branch_name>: Reapply commits on another base. 
+
+Branch & Tag Operations 
+------------------------
+git branch: List/create/delete branches. 
+
+git checkout <branch_name>: Switch branch. 
+
+git checkout -b <branch_name>: Create & switch. 
+
+git merge <branch_name>: Merge branch. 
+
+git branch -d <branch_name>: Delete branch. 
+
+git tag <tag_name>: Create a lightweight tag. 
+
+git tag -a <tag_name> -m "Tag message": Create annotated tag. 
